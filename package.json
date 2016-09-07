@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/caraclarke/ng2-setup/issues"
   },
-  "homepage": "https://github.com/caraclarke/ng2-setup#readme"
+  "homepage": "https://github.com/caraclarke/ng2-setup#readme",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
 }
